@@ -147,7 +147,7 @@ function randomThreesTell(firstNum, secondNum, thirdNum) {
 }
 
 function futureDateTell(year, month, day, hour) {
-  if (isRealNum(year) && isRealNum(month) && isRealNum(day) && isRealNum(hour)) {
+  if (!isRealNum(year) && !isRealNum(month) && !isRealNum(day) && !isRealNum(hour)) {
     console.log('请输入数字！');
     return;
   }
