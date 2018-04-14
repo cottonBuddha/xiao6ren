@@ -4,14 +4,20 @@
   "description": "小六壬",
   "main": "index.js",
   "bin": {
-    "x6r": "./index.js" 
+    "x6r": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cottonBuddha/xiao6ren.git"
+  },
   "author": "cotton",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.3.2",
     "lunar-calendar": "^0.1.4"
-  }
+  },
+  "homepage": "https://github.com/cottonBuddha/xiao6ren#readme"
 }
