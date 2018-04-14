@@ -1,0 +1,17 @@
+{
+  "name": "x6r",
+  "version": "1.0.0",
+  "description": "小六壬",
+  "main": "index.js",
+  "bin": {
+    "x6r": "./index.js" 
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cotton",
+  "license": "MIT",
+  "dependencies": {
+    "lunar-calendar": "^0.1.4"
+  }
+}
