@@ -29,7 +29,7 @@ if (count < 3) {
         `);  
         }
         if (argsArr[0] === '-v') {
-            console.log('v1.0.1');  
+            console.log('v1.0.2');  
         }
     } else if (argsCount === 3) {
         const result = LiuRen.randomThreesTell(argsArr[0], argsArr[1], argsArr[2]);  
