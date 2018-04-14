@@ -6,8 +6,7 @@ var chalk = require('chalk');
 const count = process.argv.length;
 
 if (count < 3) {    
-    const result = LiuRen.nowDateTell();
-    console.log(result);
+    LiuRen.nowDateTell();
 } else if (count >= 3) {
     const argsCount = count - 2;
     const argsArr = [];
@@ -15,7 +14,7 @@ if (count < 3) {
         argsArr.push(process.argv[i + 2]);
     }
     if (argsCount === 1 && argsArr[0] === 'now') {        
-        const result = LiuRen.nowDateTell();
+        LiuRen.nowDateTell();
     } else if (argsCount === 1 && argsArr[0] === '-h') {
         console.log(`
             有个小伙伴，有天神秘兮兮说能帮我预测吉凶，让我随意说三个数字，
